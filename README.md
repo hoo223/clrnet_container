@@ -12,7 +12,9 @@ Tested on
 
 1. Run the launch_docker.sh
 
-    > $ ./launch_docker.sh 
+    ```bash
+    ./launch_docker.sh 
+    ```
 
 2. Download the data & pretrained model from [link](https://drive.google.com/drive/folders/1t_JvNQb8dhXEfMyKzdEzrSZu4sBJbdZO?usp=share_link), put them in the CLRNet folder, and extract the data.zip.
     > share/CLRNet \
@@ -22,8 +24,10 @@ Tested on
 
 3. Excute the docker container
 
-    > docker start clrnet \
-    > docker attach clrnet
+    ```bash
+    docker start clrnet \
+    docker attach clrnet
+    ```
 
 ### In container
 
