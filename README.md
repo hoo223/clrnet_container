@@ -25,7 +25,7 @@ Tested on
 3. Excute the docker container
 
     ```bash
-    docker start clrnet \
+    docker start clrnet
     docker attach clrnet
     ```
 
